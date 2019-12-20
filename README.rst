@@ -2,7 +2,7 @@ Temperature View
 ================
 
 .. image:: TemperatureViewWorking.gif
-   :align: middle
+   :align: center
 
 This project shows the temperature and humidity using the LCD. It uses a third
 party library to recover the DHT11 sensor data and to work out the comfort
@@ -36,7 +36,7 @@ the `Makefile`. Your mileage my vary with this.
 Now wire the project together using the following circuit diagram.
 
 .. image:: TemperatureViewCircuitDiagram.png
-   :align: middle
+   :align: center
 
 Once wired together plug-in the USB cable and the compile and upload the code.
 I've created a handy make target for this:
