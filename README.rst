@@ -2,6 +2,7 @@ Temperature View
 ================
 
 .. image:: assets/working.gif
+    :align: center
 
 This project shows the temperature and humidity using the LCD. It uses a `third party library <https://github.com/beegee-tokyo/DHTesp>` to recover the DHT11 sensor data and to work out the comfort level. I use parts from the `"ELEGOO Mega 2560 Project The Most Complete Ultimate Starter Kit" <https://www.amazon.co.uk/dp/B01IUZK3JO>` for this project.
 
@@ -30,6 +31,8 @@ the `Makefile`. Your mileage my vary with this.
 Now wire the project together using the following circuit diagram.
 
 .. image:: assets/circuitdiagram.png
+    :width: 80%
+    :align: center
 
 Once wired together plug-in the USB cable and the compile and upload the code.
 I've created a handy make target for this:
